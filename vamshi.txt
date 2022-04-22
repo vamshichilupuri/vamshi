@@ -1,0 +1,349 @@
+//button[contains(text(),'Double')]
+//label[text()='Email']/parent::div/following-sibling::div/input
+//a[text()='Forgotten password?']
+
+======================================================
+
+https://www.guru99.com/xpath-selenium.html
+
+
+1.//input[@id='email']
+2.//input[@id='pass']
+3.//button[contains(text(),'Log In')]
+4.//a[text()='Forgotten password?']
+5.//a[contains(text(),'Create New Account')]
+
+
+1.//input[@id='user-name']
+2.//input[@id='password']
+3.//input[@id='login-button']
+
+1.//label[text()='Full Name']/parent::div/following-sibling::div/input
+2.//label[text()='Email']/parent::div/following-sibling::div/input
+3.//label[text()='Current Address']/parent::div/following-sibling::div/textarea
+4.//label[text()='Permanent Address']/parent::div/following-sibling::div/textarea
+5.//button[text()='Submit']
+
+
+1.//input[@id='firstName']
+2.//input[@id='userEmail']
+3.//input[@id='gender-radio-1']
+4.//input[@id='userNumber']
+5.//input[@id='dateOfBirthInput']
+6.//input[@id='hobbies-checkbox-1']
+7.//input[@id='uploadPicture']
+8.//label[text()='Current Address']/parent::div/following-sibling::div/textarea
+
+
+java
+string
+1. public class Test 
+{
+
+	public static void main(String[] args) {
+      
+		String name="vamshi";
+		System.out.println(name);
+
+	}
+
+}
+boolean
+2.public class Test {
+
+	public static void main(String[] args) {
+      
+		boolean b=false;
+		System.out.println(b);
+
+	}
+
+}
+byte
+3.public class Test {
+
+	public static void main(String[] args) 
+{
+          byte vamshi=123;
+          system.out.println(vamshi);
+		
+	}
+4.short
+public class Test {
+
+	public static void main(String[] args) 
+{
+          short shiva=1111;
+          system.out.println(shiva);
+		
+	}
+5.int
+public class Test {
+
+	public static void main(String[] args) 
+{
+          int vamshi=946478255;
+          system.out.print(vamshi);
+		
+	}
+6.float
+public class Test {
+
+	public static void main(String[] args) 
+{
+          float a =10.8;
+          float b =99.9;
+          system.out.print(a+b);
+		
+	}
+
+}
+
+7.char
+public class Test {
+
+	public static void main(String[] args) 
+{
+         char1='shivam';
+         char2='9578643277';
+          system.out.print('char1');
+	  system.out.print('char2');	
+	}
+8.double
+public class Test {
+
+	public static void main(String[] args) 
+{
+         double a =1233.666;
+         double b = 6574.888;
+          system.out.print(a-b);
+	  	
+	}
+9. elements 
+class test 
+{
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int a=10;
+		int b=20;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+        }
+
+}
+10.long
+
+ public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		long a= 1234567896677
+		System.out.println(a);
+		
+		
+		
+
+	}
+
+}
+======================================================
+
+1.else not  eligable for penction
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int num=45;
+		if(num>=60)
+		{
+		System.out.println("eligble for penction");
+		}
+		else
+		{
+			System.out.println("not eligble for penction");
+		}
+
+	}
+
+}
+2.eliglabel for marriage 
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int num=25;
+		if(num>=21)
+		{
+		System.out.println("eligble for marriage");
+		}
+		else
+		{
+			System.out.println("not eligble for marriage");
+		}
+
+	}
+
+}
+3.odd
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int num=5;
+		if(num%2==0)
+		{
+		System.out.println("even");
+		}
+		else
+		{
+			System.out.println("odd");
+		}
+
+	}
+
+}
+4.positive
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int num=20;
+		if(num>0)
+		{
+		System.out.println("positive");
+		}
+		else
+		{
+			System.out.println("negtive");
+		}
+	}
+}
+5.Age
+public class Test {
+
+	public static void main(String[] args) {
+      
+		
+		int age=13;
+		if(age<2)
+		{
+			System.out.println("infants");
+		}
+		
+		else if( (age>2)&&(age<7)   )
+		{			
+			System.out.println("toddler");
+		}
+		
+		else if ( (age>7)&&(age<14) )
+		{
+		   System.out.println("child");
+		}
+		else if(age>14)
+		{
+			System.out.println("Adult");
+		}
+		
+		
+		else
+6.Grades
+public class Test {
+
+	public static void main(String[] args) {
+      
+	
+		int marks=40;
+		
+		if(marks<50) 
+		{	 
+	    System.out.println("fail");
+		}
+		else if (marks>=50 && marks<60)
+		{
+			System.out.println("D grade");
+		}
+		else if (marks>=60&& marks<70)
+		{
+			System.out.println("c grade");
+		}
+		else if (marks>=70&& marks<80)
+		{
+			System.out.println("B grade");
+		}
+		else if (marks>=80&& marks<90)
+		{			
+			System.out.println("A grade");
+		}
+		else if (marks>=90&&marks<100)
+		{
+			System.out.println("A+ grade");
+		}
+		else
+		{
+			System.out.println("invalid marks");
+		}
+
+	}
+
+}
+11.public class Test {
+
+	public static void main(String[] args) {
+      
+	
+		int i=6;
+		while(i<=8) 
+		{
+			System.out.println(i);
+			i++;
+		}
+		
+
+	}
+
+}
+12.public class Test {
+
+	public static void main(String[] args) {
+      
+	
+		int i=10;
+		while(i>=5) 
+		{
+			System.out.println(i);
+			i--;
+		}
+		
+
+	}
+13.public class Test {
+
+	public static void main(String[] args) {
+      
+	
+		int i=4;
+		do{
+			System.out.println(i);
+			i--;
+		}
+		while(i>=0);
+		
+
+	}
+
+}
+
+}
+
